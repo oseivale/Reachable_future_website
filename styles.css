@@ -1,0 +1,51 @@
+
+.main{
+  height: 800px;
+  opacity: 0.8;
+  background-image: url('images/adult-backlit-beach-1000445.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.main h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.main p {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  padding-bottom: 30px;
+
+}
+/*
+.contact-btn {
+  height: 50px;
+  width: 125px;
+  background-color: #6f72bf;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border: solid #eae5ee 2px;
+  border-radius: 10px;
+  font-family: 'Signika', sans-serif;
+} */
+
+.navigation ul li{
+  display: inline-block;
+  padding: 30px;
+  font-family: 'Signika', sans-serif;
+  background-color: #ccdbc1;
+}
+
+.navigation {
+  position: relative;
+  transform: translate(480px, 0);
+}
