@@ -3,27 +3,30 @@
   height: 800px;
   opacity: 0.8;
   background-image: url('images/adult-backlit-beach-1000445.jpg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size:cover;
+  padding: none;
 }
 
 .main h1 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 4em;
+  font-family: 'Merienda', cursive;
+  font-size: 4.5em;
   color: white;
   position: relative;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .main p {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Chathura', sans-serif;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 3em;
   color: white;
-  padding-bottom: 30px;
+  padding: 10px 200px;
 
 }
+
+
 /*
 .contact-btn {
   height: 50px;
@@ -38,14 +41,36 @@
   font-family: 'Signika', sans-serif;
 } */
 
-.navigation ul li{
+.navigation a{
   display: inline-block;
   padding: 30px;
-  font-family: 'Signika', sans-serif;
-  background-color: #ccdbc1;
+  font-family: 'Amatic SC', cursive;
+  text-decoration: none;
+  font-weight: bold;
+  color: #32345d;
 }
 
 .navigation {
-  position: relative;
-  transform: translate(480px, 0);
+  /* position: relative; */
+  background-color: #ccdbc1;
+  text-align: center;
+  font-size: 2em;
+}
+
+.mid-section {
+  height: 700px;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 90px;
+  font-family: 'Crimson Text', serif;
+
+}
+
+
+footer{
+  height: 700px;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 80px;
+  font-family: 'Crimson Text', serif;
 }
