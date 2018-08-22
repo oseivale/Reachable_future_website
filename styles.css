@@ -1,76 +1,130 @@
 
-.main{
-  height: 800px;
-  opacity: 0.8;
-  background-image: url('images/adult-backlit-beach-1000445.jpg');
-  /* background-repeat: no-repeat; */
-  background-size:cover;
-  padding: none;
+ .container-2, .container-4 h2{
+  text-align: right;
+  margin: 0px;
 }
 
-.main h1 {
-  font-family: 'Merienda', cursive;
-  font-size: 4.5em;
-  color: white;
+.container-3 h2, .container-1 h2{
+  margin: 0px;
+
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  padding: 15px;
+  color: #19191c;
   position: relative;
-  text-align: center;
-  padding-top: 100px;
-}
-
-.main p {
-  font-family: 'Chathura', sans-serif;
-  text-align: center;
-  font-size: 3em;
-  color: white;
-  padding: 10px 200px;
-
-}
-
-
-/*
-.contact-btn {
-  height: 50px;
-  width: 125px;
-  background-color: #6f72bf;
-  margin: auto;
-  padding: 10px;
-  text-align: center;
-  color: white;
-  border: solid #eae5ee 2px;
+  transform: translate(0px, 40px);
+  background-color:#d6c381;
+  max-width: 190px;
   border-radius: 10px;
-  font-family: 'Signika', sans-serif;
-} */
+
+}
+
+.container-3 h2 {
+  color: #19191c;
+  transform: translate(200px, 20px);
+
+}
+
+.container-3 p{
+  color: black;
+  transform: translate(250px, 0px);
+}
+
+.container-2 h2, .container-1 h2{
+  margin-top: 0px;
+
+
+}
+
+p{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.2em;
+  padding: 15px;
+  color: #19191c;
+  background-color:#d6c381;
+  opacity: 0.8;
+  transform: translate(100px, 0px);
+  max-width: 240px;
+  border-radius: 10px;
+
+}
+
+.container-2 p, .container-4 p {
+  text-align: right;
+}
+
+div{
+  width: 100%;
+  height: 400px;
+  /* padding: 0px; */
+
+}
+
+.navigation{
+  width: 100%;
+  height: 50px;
+}
+
+.container-1{
+  background-image: url("/home/valerie/My_Projects/Reachable_future_website/copy2/adult-black-and-white-blur-257037.jpg");
+  background-size: cover;
+  opacity: 0.9;
+   background-attachment: fixed;
+}
+
+.container-2{
+  background-image: url("/home/valerie/My_Projects/Reachable_future_website/copy2/adventure-backlit-community-207896.jpg");
+  background-size: cover;
+  opacity: 0.7;
+  background-attachment: fixed;
+
+
+}
+
+.container-3{
+  background-image: url("/home/valerie/My_Projects/Reachable_future_website/copy2/black-and-white-close-up-daytime-770099.jpg");
+  background-size: cover;
+  opacity: 0.7;
+  background-attachment: fixed;
+}
+
+.container-4{
+  background-image: url("/home/valerie/My_Projects/Reachable_future_website/copy2/bright-bulb-dark-132340.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  background-attachment: fixed;
+}
 
 .navigation a{
-  display: inline-block;
-  padding: 30px;
-  font-family: 'Amatic SC', cursive;
+  padding: 15px;
   text-decoration: none;
-  font-weight: bold;
-  color: #32345d;
+  color: white;
+
 }
 
 .navigation {
-  /* position: relative; */
-  background-color: #ccdbc1;
-  text-align: center;
-  font-size: 2em;
+  text-align: right;
+  padding-top: 12px;
+  background-color: #535856;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.7;
 }
 
-.mid-section {
-  height: 700px;
-  text-align: center;
+.navigation span{
+  font-family: 'Shadows Into Light', cursive;
   font-size: 2em;
-  padding-top: 90px;
-  font-family: 'Crimson Text', serif;
-
+  display: inline-block;
+  text-align: left;
+  padding-right: 100px;
+  
 }
 
+.main {
+  width: 60%;
+  transform: translate(365px, 0px);
 
-footer{
-  height: 700px;
-  text-align: center;
-  font-size: 2em;
-  padding-top: 80px;
-  font-family: 'Crimson Text', serif;
 }
