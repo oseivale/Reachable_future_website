@@ -1,0 +1,45 @@
+body{
+  background-image: url("/home/valerie/My_Projects/Reachable_future_website/copy2/black-and-white-close-up-daytime-770099.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.header h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+  color: white;
+  transform: translate(80px,315px);
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 24px;
+  transform: translate(50px,305px);
+}
+
+.name{
+  font-family: 'Open Sans Condensed', sans-serif;
+  transform: translate(90px,315px);
+
+}
+
+.name1{
+  width: 300px;
+}
+
+.navigation li{
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 30px;
+  color: black;
+
+}
+
+.navigation{
+  text-align: center;
+  font-size: 25px;
+  /* background-color: grey;
+  opacity: 0.6; */
+}
